@@ -29,7 +29,7 @@ def wake_on_lan():
 
         for _ in range(5):
             sock.sendto(packet, ("192.168.1.255", 9))
-            # TODO: Get this to work, regardless of our subnet
+            # NOTE: Get this to work, regardless of our subnet
 
 
 if __name__ == "__main__":
